@@ -1,0 +1,29 @@
+{
+  "name": "gorillaz-vs-humanzz",
+  "version": "1.0.0",
+  "description": "Simple browser game prototype. Open `src/index.html` in your browser to play.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "lint": "eslint \"src/**/*.{js}\"",
+    "lint:fix": "npm run lint -- --fix",
+    "format": "prettier --write \"src/**/*.{js,css,html}\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.0",
+    "prettier": "^3.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "husky": "^9.0.0",
+    "lint-staged": "^15.0.0"
+  }
+}
