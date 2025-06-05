@@ -8,7 +8,7 @@
     "lint": "eslint \"src/**/*.{js}\"",
     "lint:fix": "npm run lint -- --fix",
     "format": "prettier --write \"src/**/*.{js,css,html}\"",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest run",
     "prepare": "husky install"
   },
   "keywords": [],
@@ -24,6 +24,8 @@
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-config-prettier": "^9.0.0",
     "husky": "^9.0.0",
-    "lint-staged": "^15.0.0"
+    "lint-staged": "^15.0.0",
+    "vitest": "^1.0.0",
+    "jsdom": "^24.0.0"
   }
 }
